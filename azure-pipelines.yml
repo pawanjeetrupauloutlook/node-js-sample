@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'MyAgent007'
+  name: 'MyAgent007'
 
 steps:
 - task: NodeTool@0
